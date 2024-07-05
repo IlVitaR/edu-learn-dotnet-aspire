@@ -10,6 +10,7 @@
         }
     ],
     "configurations": [
+
         {
             "name": "Run api",
             "type": "dotnet",
@@ -21,6 +22,12 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}\\MyWeatherHub\\MyWeatherHub.csproj"
+        },
+        {
+            "name": "Run app host",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\AppHost\\AppHost.csproj"
         }
     ]
 }
